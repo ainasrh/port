@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(15, 12, 12);
+    overflow-x: hidden;
+}
+
+.nav-link{
+    color:rgb(231, 226, 226);
+
+}
+.navbar-brand{
+    color: rgb(197, 197, 197)
+}
+.navbar-brand:hover{
+   color: white;
+}
+.nav-link:hover{
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+    
+}
+/* main section */
+
+
+.col2{
+    
+    background:url()no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main h3{
+    color: rgb(228, 209, 209);
+    font-size:4.4rem;
+    font-weight: 700px ;
+}
+.main h6{
+    color: rgb(204, 165, 165);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 2;
+}
+ /* button */
+
+.main .bt1{
+    text-decoration: none;
+
+    height: 55px;
+    width: 100px;
+    background-color: rgb(240, 181, 108);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 2px;
+
+}
+.main .bt1:hover{
+    background-color:rgb(43, 35, 35);
+    color: rgb(240, 181, 108);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width: 100px;
+    background-color: rgb(61, 187, 67);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 2px;
+
+}
+.main .bt2:hover{
+    background-color: rgb(250, 250, 250);
+    color: green;
+    transition: 0.5s;
+}
+
+/* about */
+
+.about h1{
+    font-size: 3.5rem;
+    font-weight:900 ;
+}
+.progress{
+    background-color: rgb(90, 23, 23);
+    justify-content: flex-start;
+    align-items:center;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.pro-value1{  
+    color : blueviolet; 
+    font-weight: bold;
+    animation: load1 4s normal forwards;
+    border-radius:50px;
+    background-color:   rgb(183, 185, 183);
+    height: 25px;
+    
+}
+.progress p{
+    color: rgb(2, 2, 2);
+    padding: 5px;
+}
+.pro-value2{  
+    color : blueviolet; 
+    font-weight: bold;
+    animation: load2 4s normal forwards;
+    border-radius:50px;
+    background-color:   rgb(183, 185, 183);
+    height: 25px;
+    
+}
+.pro-value3{  
+    color : blueviolet; 
+    font-weight: bold;
+    animation: load3 4s normal forwards;
+    border-radius:50px;
+    background-color:   rgb(183, 185, 183);
+    height: 25px;
+    
+}
+@keyframes load1{
+    0%{
+        width:0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes load2{
+    0%{
+        width:0;
+    }
+    100%{
+        width: 89%;
+    }
+}
+@keyframes load3{
+    0%{
+        width:0;
+    }
+    100%{
+        width: 83%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    border-radius: 20px;
+    background-color:rgb(61, 187, 67); 
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn1:hover{
+    color: rgb(241, 238, 238);
+    background-color:rgb(91, 102, 88);
+    transition: .6s;
+}
+.btn2{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(240, 181, 108); 
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn2:hover{
+    color: rgb(241, 238, 238);
+    background-color:rgb(91, 102, 88);
+    transition: .6s;
+
+}
+/* service */
+.card{
+    background-color: rgb(72, 73, 54);
+    color: rgb(216, 216, 216);
+    border:none;
+    outline: none;
+    -webkit-box-shadow: 10px 3px 18px -13px rgba(230,216,230,1);
+    -moz-box-shadow: 10px 3px 18px -13px rgba(230,216,230,1);
+    box-shadow: 10px 3px 18px -13px rgba(230,216,230,1);
+}
+.circle{
+    color: black;
+     font-size: 30px; 
+    height: 60px;
+    width: 60px;
+    background-color: lightgray;
+    border-radius: 50%;
+    padding:15px;
+    padding-bottom:50px ;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+.card:hover .circle{
+    transition: 1.5s;
+    color: white;
+    background-color: black;
+}
+/* slide */
+#carsu{
+    width: 700px;
+    
+}
+/* contact */
+.circle:hover{
+    color: white;
+    transition: .4s;
+    background: rgb(82, 77, 77);
+}
+.btn3{
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(121, 114, 114);
+    border: none;
+    outline: none;
+    
+}
+.btn3:hover{
+    background-color:rgb(82, 55, 55);
+    color: white;
+}
+#contact{
+    margin-top: 70px;
+    background-color: rgb(49, 47, 44);
+}
+footer{
+    height: 40px;
+    background-color: rgb(109, 99, 99);
+    color: white;
+}
